@@ -23,4 +23,10 @@ public class Order {
     public void setShipName(String shipName) {
         this.shipName = shipName;
     }
+
+    public void info(){
+        System.out.println("Order Id: " + this.getOrderId());
+        System.out.println("Ship Name: " + this.getShipName());
+        System.out.println("-----------------------");
+    }
 }

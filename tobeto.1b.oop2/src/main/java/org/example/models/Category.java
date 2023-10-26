@@ -25,5 +25,10 @@ public class Category {
         this.categoryName = categoryName;
     }
 
+    public void info(){
+        System.out.println("Category ID: " + this.getCategoryId());
+        System.out.println("Category Name: " + this.getCategoryName());
+        System.out.println("--------------------------------");
+    }
 
 }

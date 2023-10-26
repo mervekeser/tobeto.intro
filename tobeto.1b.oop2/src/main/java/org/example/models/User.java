@@ -24,4 +24,10 @@ public class User {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    public void info(){
+        System.out.println("User Contact Name: " + this.getContactName());
+        System.out.println("User Phone: " + this.getPhone());
+        System.out.println("--------------------------");
+    }
 }

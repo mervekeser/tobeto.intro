@@ -23,4 +23,10 @@ public class Product {
     public void setUnitPrice(double unitPrice) {
         this.unitPrice = unitPrice;
     }
+
+    public void info(){
+        System.out.println("Product Name: " + this.getName());
+        System.out.println("Product Unit Price: " + this.getUnitPrice());
+        System.out.println("----------------------------------");
+    }
 }
