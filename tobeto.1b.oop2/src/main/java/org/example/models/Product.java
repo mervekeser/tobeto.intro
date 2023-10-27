@@ -24,7 +24,7 @@ public class Product {
         this.unitPrice = unitPrice;
     }
 
-    public void info(){
+    public void printProduct(){
         System.out.println("Product Name: " + this.getName());
         System.out.println("Product Unit Price: " + this.getUnitPrice());
         System.out.println("----------------------------------");

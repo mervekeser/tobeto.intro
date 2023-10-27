@@ -25,7 +25,7 @@ public class User {
         this.phone = phone;
     }
 
-    public void info(){
+    public void printUser(){
         System.out.println("User Contact Name: " + this.getContactName());
         System.out.println("User Phone: " + this.getPhone());
         System.out.println("--------------------------");

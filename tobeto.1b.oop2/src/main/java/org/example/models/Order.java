@@ -24,7 +24,7 @@ public class Order {
         this.shipName = shipName;
     }
 
-    public void info(){
+    public void printOrder(){
         System.out.println("Order Id: " + this.getOrderId());
         System.out.println("Ship Name: " + this.getShipName());
         System.out.println("-----------------------");
