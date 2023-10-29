@@ -12,7 +12,7 @@ public class CarManager {
 
     public void add(Car car) throws Exception{
         if(car.isDamaged()){
-            throw new Exception("Accident: true --> " + "Hasarlı araç sisteme eklenemez");
+            throw new Exception("Damaged: true --> " + "Hasarlı araç sisteme eklenemez");
         }
 
         if(car.getBaggageCapacity()<1){
