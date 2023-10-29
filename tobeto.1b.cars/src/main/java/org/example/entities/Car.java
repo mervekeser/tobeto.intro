@@ -68,7 +68,7 @@ public class Car {
         return damaged;
     }
 
-    public void setAccident(boolean damaged) {
+    public void setDamaged(boolean damaged) {
         this.damaged = damaged;
     }
 
@@ -86,7 +86,7 @@ public class Car {
         System.out.println("Model: " + this.getModel());
         System.out.println("Color: " + this.getColor());
         System.out.println("Price: " + this.getPrice());
-        System.out.println("Accident: " + this.isDamaged());
+        System.out.println("Damaged: " + this.isDamaged());
         System.out.println("Baggage Capacity: " + this.getBaggageCapacity());
     }
 }
