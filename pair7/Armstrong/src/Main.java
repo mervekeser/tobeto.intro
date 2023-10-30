@@ -14,15 +14,13 @@ public class Main {
 
         while (number > 0) {
             int digit = number % 10;
-            digits[index] = digit; // Basamağı diziye ekleyin
+            digits[index] = digit;
             number /= 10;
             index++;
         }
-        // System.out.println(basamaklar[1]);
-        //  System.out.println(basamaklar.length);
+
 
         for (int i : digits) {
-            //System.out.println("basamaklar: "+i);
             total += (Math.pow(i, digits.length));
         }
 

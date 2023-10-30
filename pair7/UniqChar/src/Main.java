@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        String word = "seeelin";
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a word");
+        String word = input.nextLine();
 
         if (isUniq(word)) {
             System.out.println("This word has unique characters");

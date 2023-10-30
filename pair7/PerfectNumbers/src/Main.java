@@ -8,9 +8,6 @@ public class Main {
                 i++;
             }
             count++;
-            if (count == 80000) {
-                System.out.println(count);
-            }
         }
     }
 
